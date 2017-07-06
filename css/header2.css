@@ -1,0 +1,77 @@
+
+/*汽车构造安装款header*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ul li{
+	list-style: none;
+}
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 5px #ccc;
+}
+.top{
+	height:225px;
+	width:1000px;
+	margin: 0 auto;
+	border-bottom: 1px solid #a8a8a8;
+	font-family: "宋体";
+	font-size: 18px;
+	overflow: hidden;
+}
+.banner{
+	height:180px;
+}
+.nav{
+	height:45px;
+	background: #167ecd;
+}
+.nav a{
+	color:white;
+	text-decoration: none;
+}
+.nav a:hover{
+	text-decoration: underline;
+}
+.nav li:hover{
+	background: #20b6fb;
+	display: block;
+}
+.menu{
+	width:690px;
+	height:45px;
+	margin: auto;
+}
+.nav li{
+	height:45px;
+	width:108px;
+	float: left;
+	line-height: 45px;
+	margin-left:10px ;
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+}
+.menu>li:hover .Submenu{
+	display: block;
+}
+.menu>li:hover .Submenu_two{
+	display: block;
+}
+.Submenu{
+	height:90px;
+	width:108px;
+	background: #167ecd;
+	display: none;
+	position: absolute;
+}
+.Submenu_two{
+	width:108px;
+	height:270px;
+	background: #167ecd;
+	display: none;
+	position: absolute;
+}

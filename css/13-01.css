@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 14px;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color: brown;
+}
+#container{
+	width:1000px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 0px 20px #ccc;
+	-moz-box-shadow: 0px 0px 20px #ccc;
+	box-shadow: 0px 0px 20px #ccc;
+}
+/*中心部分*/
+.section{
+	min-height:795px;
+	width:998px;
+	padding-top:43px;
+	margin: 0 auto;
+	border-left:1px solid #e0e0e0;
+	border-right:1px solid #e0e0e0;
+}
+/*左边部分*/
+.left{
+	width:194px;
+	height:580px;
+	margin-left:53px;
+	float: left;
+	overflow: hidden;
+}.left>.top{
+	height:30px;
+	background: #1f8ad3;
+	line-height:30px;
+	text-align: center;
+	color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.left>.center li{
+	margin-left:1.5px;
+	width:141px;
+	height:33px;
+	border-bottom: 1px solid #9fa0a0;
+	background: url(../img/threeimg.png) no-repeat;
+	margin-top:16px;
+	line-height: 33px;
+	color:white;
+	padding-left:50px;
+	
+}
+.left>.center li>a{
+	color:white
+}
+.left>.center li>a:hover{
+	color:#f4ea5e;
+}
+.right{
+	min-height:688px;
+	width:606px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	margin-left:45px;
+	float: left;
+	margin-top:-18px;
+}
+.right>ul{
+	max-height:670px;
+}
+.right li:first-child{
+	margin-top: 10px;
+}
+.right li{
+	height:32px;
+	border-bottom: 1px solid #b7b8b8;
+	width:542px;
+	padding-left:28px;
+	margin-left:13px;
+	background: url(../img/four.png) no-repeat 8px center;
+	line-height:32px;
+}

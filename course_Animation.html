@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/video.css"/>
+		<link rel="stylesheet" type="text/css" href="css/video-js.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/video.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	<div id="container">
+		<!--头部-->
+		<div class="top">
+			<div class="banner">
+				<img src="img/top.png"/>
+			</div>
+			<div class="nav">
+			<ul class="menu">
+					<li><a href="kecheg.html">课程概况</a></li>
+					<li><a href="jiaonav.html">教学设计</a>
+					    <ul class="Submenu">
+					    	<li><a href="jiaonav.html">课程建设</a></li>
+					    	<li><a href="jiaonav.html">实习实训</a></li>
+					    </ul>
+					</li>
+					<li><a href="course_details.html">课程资源</a>
+					    <ul class="Submenu_two">
+					    	<li><a href="course_details.html">教学案例</a></li>
+					    	<li><a href="course_details.html">教学录像</a></li>
+					    	<li><a href="course_details.html">视频</a></li>
+					    	<li><a href="course_details.html">动画</a></li>
+					    	<li><a href="course_details.html">PPT课件</a></li>
+					    	<li><a href="course_details.html">电气教案</a></li>
+					    </ul>
+					</li>
+					<li><a href="assess_List.html">考核评价</a>
+					    <ul class="Submenu">
+					    	<li><a href="assess_List.html">实验实践</a></li>
+					    	<li><a href="assess_List.html">试题库</a></li>
+					    </ul>
+					</li>
+					<li><a href="kederaction.html">课程描述</a></li>
+					<li><a href="text_Decoration.html">文献资料</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--中间大盒子-->
+		<div class="video">
+			
+			<!--视频部分-->
+			<video id="my-video" class="video-js" controls preload="auto" width="691" height="504"
+		  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+			<source src="video/励志短片.mp4" type="video/mp4">
+			<p class="vjs-no-js">
+			  To view this video please enable JavaScript, and consider upgrading to a web browser that
+			  <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+			</p>
+		  </video>
+		  <!--留言列表-->
+		  <ul class="lie">
+		  	<li>
+		  		<p>现在的宝贝，每个都是小财主。平时零用钱不断，逢年过节，又会受到不少红包。</p>
+		  		<div>
+		  			<p>姓名:<span>张三</span></p>
+		  			<p>时间:<span>2017-05-20</span></p>
+		  		</div>
+		  	</li>
+		  	<li>
+		  		<p>现在的宝贝，每个都是小财主。平时零用钱不断，逢年过节，又会受到不少红包。</p>
+		  		<div>
+		  			<p>姓名:<span>张三</span></p>
+		  			<p>时间:<span>2017-05-20</span></p>
+		  		</div>
+		  	</li>
+		  	<li>
+		  		<p>现在的宝贝，每个都是小财主。平时零用钱不断，逢年过节，又会受到不少红包。</p>
+		  		<div>
+		  			<p>姓名:<span>张三</span></p>
+		  			<p>时间:<span>2017-05-20</span></p>
+		  		</div>
+		  	</li>
+		  	<li>
+		  		<p>现在的宝贝，每个都是小财主。平时零用钱不断，逢年过节，又会受到不少红包。</p>
+		  		<div>
+		  			<p>姓名:<span>张三</span></p>
+		  			<p>时间:<span>2017-05-20</span></p>
+		  		</div>
+		  	</li>
+		  	<li>
+		  		<p>现在的宝贝，每个都是小财主。平时零用钱不断，逢年过节，又会受到不少红包。</p>
+		  		<div>
+		  			<p>姓名:<span>张三</span></p>
+		  			<p>时间:<span>2017-05-20</span></p>
+		  		</div>
+		  	</li>
+		  </ul>
+		  <!--留言框-->
+		  <textarea class="liuyan" name=""  rows="" cols=""></textarea>
+		  <!--留言按钮-->
+		  <button class="button">点我留言</button>
+		</div>
+		<!--底部-->
+		<div class="footer">
+			<p>电话:0543-5086002 招生咨询：0543-5082257 5082326 地址: 山东滨州黄河12路919号 邮箱:256603</p>
+			<p>Copyright © 2011. BZPT.EDUCN. All Rights Reserved.　　鲁ICP备05018600 滨公备:0601005</p>
+			<img src="img/footer.png" alt="" />
+		</div>
+	</div>
+	</body>
+	<script type="text/javascript">
+		var myPlayer = videojs('my-video');
+			videojs("my-video").ready(function(){
+				var myPlayer = this;
+				myPlayer.play();
+			});
+			
+			$(".button").on({
+				mousedown:function(){
+					$(this).css("color","white")
+				},
+				mouseup:function(){
+					$(this).css("color","#b5b5b6")
+				}
+			})
+	</script>
+</html>

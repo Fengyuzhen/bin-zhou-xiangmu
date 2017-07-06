@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>虚拟仿真</title>
+	<link rel="stylesheet" href="css/xnfz.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/header1.css"/>
+	<link rel="stylesheet" type="text/css" href="css/footer2.css"/>
+	<script type="text/javascript" src="js/jquery-2.1.0.js">
+    </script>
+</head>
+<body>
+		<div class="top">
+			<!--头部背景图片-->
+			<div class="banner">
+				<img src="img/top.png"/>
+			</div>
+			<!--导航栏-->
+			<ul class="nav">
+					<li><a href="index.html">首页</a></li>
+					<li class="second"><a href="xueNi.html">虚拟实训</a>
+						<!--二级菜单-->
+					    <ul class="nav_word">
+					    	<li><a href="xueNi.html">实训软件</a></li>
+					    	<li><a href="xueNi.html">实训软件</a></li>
+					    	<li><a href="xueNi.html">实训软件</a></li>
+					    	<li><a href="xueNi.html">实训软件</a></li>
+					    	<li><a href="xueNi.html">实训软件</a></li>
+					    </ul>
+					</li>
+					<li class="second2"><a href="list.html">精品课程</a>
+						<!--二级菜单-->
+						<ul class="nav_word">
+							<li><a href="kecheg.html">发动机</a></li>
+							<li><a href="kecheg.html">汽车美容</a></li>
+							<li><a href="kecheg.html">汽车电子</a></li>
+							<li><a href="kecheg.html">汽车检修</a></li>
+							<li><a href="kecheg.html">汽车制造</a></li>
+							<li><a href="kecheg.html">精品汽车</a></li>
+						</ul>  
+					</li>
+					<li><a href="teacher_list.html">校园名师</a></li>
+					<li><a href="keChengjs.html">课程建设</a></li>
+					<li><a href="xxfb.html">信息发布</a></li>
+					<li><a href="seven_1.html">汽车百科</a></li>
+				</ul>
+		</div>
+		<!-- 内容 -->
+		<div class="box">
+			<div class="content">
+				<div class="con_left">
+					<!-- 仿真系列 -->
+					<!-- 右边选项卡 最多8个 -->
+					<div class="title_tc">
+						<div>虚拟实训</div>
+						<div class="select_1">汽车维修软件</div>
+						<hr/>
+						<div class="select_1">汽车维修软件</div>
+						<hr/>
+						<div class="select_1">汽车维修软件</div>
+						<hr/>
+						<div class="select_1">汽车维修软件</div>
+						<hr/>
+						<div class="select_1">汽车维修软件</div>
+						<hr/>
+						<!-- 可以再加3个 -->
+						<!--  <div class="select_1"></div>
+						<hr/>
+						<div class="select_1"></div>
+						<hr/>
+						<div class="select_1"></div>
+						<hr/> -->
+					</div>
+				</div>
+				<div class="con_right">	
+						<!-- 仿真系列内容 -->
+						<!-- 右边内容 对应8个 -->
+						<div class="con_box">
+							<img src="img/exp.png" alt="">
+						</div>
+						<div class="con_box">
+							<img src="img/exp2.png" alt="">
+						</div>
+						<div class="con_box">
+							<img src="img/exp3.png" alt="">
+						</div>
+						<div class="con_box">
+							<img src="img/exp4.png" alt="">
+						</div>
+						<div class="con_box">
+							<img src="img/exp5.png" alt="">
+						</div>
+
+				</div>
+			</div>
+			
+		</div>
+		<div class="footer">
+			<p>电话:0543-5086002 招生咨询：0543-5082257 5082326 地址: 山东滨州黄河12路919号 邮箱:256603</p>
+			<p>Copyright © 2011. BZPT.EDUCN. All Rights Reserved.　　鲁ICP备05018600 滨公备:0601005</p>
+			<img src="img/footer2.png" alt="" />
+		</div>
+
+</body>
+<script>
+/*下拉菜单动画*/
+		$('.nav>ul>li').hover(function(){
+				$(this).css('background','skyblue');
+				$(this).children('ul').stop().slideToggle(500);
+		},function(){
+				$(this).children('ul').stop().slideToggle(500);
+				$(this).css('background','transparent');
+		});
+	// 右边选项卡点击事件
+$('.select_1').on('click',function(){
+	// console.log($(this).index('.select_1'))
+	// 对应选项卡内容的显示
+	$('.con_right div').css('display','none').eq($(this).index('.select_1')).css('display','block')
+})	
+</script>
+</html>

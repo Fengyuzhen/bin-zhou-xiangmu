@@ -1,0 +1,87 @@
+/*通用样式*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+ul>li{
+	list-style: none;
+}
+/*容器盒子*/
+#container{
+	width: 1000px;
+	margin: 0 auto;
+}
+/*内容区样式*/
+section{
+	width:998px;
+	min-height: 812px;
+	background:white;
+	border: 1px solid transparent;
+}
+/*标题样式*/
+section>h2{
+	height: 70px;
+	width: 790px;
+	margin:30px auto 0; 
+	text-align: center;
+	line-height: 70px;
+	font-family:"新宋体" ;
+	font-size: 36px;
+	border-bottom: 1px solid #000000;
+}
+/*发布时间与访问量处样式*/
+section>#title{
+	padding:15px 242px;
+	width: 516px;
+	margin-bottom: 24px;
+}
+section>#title>p{
+	display: inline-block;
+	font-size: 14px;
+}
+section>#title>p>span{
+	color:#FF0000;
+}
+section>#title>p:nth-of-type(1){
+	margin-right: 240px;
+}
+/*内容区列表样式*/
+section>ul{
+	width: 487px;
+	margin: 0 auto;
+}
+section>ul>li{
+	height: 86px;
+	background:url(../img/Glossy2.png) no-repeat 280px 76px;
+}
+section>ul>li>div{
+	height: 68px;
+	border:1px solid transparent;
+	background:url(../img/Glossy.png) no-repeat 15px 12px,url(../img/Glossy-BG.png) no-repeat -3px,rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+section>ul>li>div:hover{
+	background:rgba(0,0,0,0.1);
+}
+/*内容区按钮样式*/
+section>ul>li>div>a{
+	width: 353px;
+	height: 32px;
+	padding-left: 70px;
+	border:1px solid #445262;
+	display: block;
+	margin:17px auto 0;
+	border-radius: 3px;
+	box-shadow:2px 2px 2px #ccc inset;
+	background:url(../img/left_btn.jpg) no-repeat 393px,-webkit-linear-gradient(#f9f9f9,#e4e4e4)
+	background:url(../img/left_btn.jpg) no-repeat 393px,-o-linear-gradient(#f9f9f9,#e4e4e4);
+	background:url(../img/left_btn.jpg) no-repeat 393px,-moz-linear-gradient(#f9f9f9,#e4e4e4);
+	background:url(../img/left_btn.jpg) no-repeat 393px,linear-gradient(#f9f9f9,#e4e4e4);
+	color: #292f38;
+	font-size: 12px;
+	line-height: 32px;
+}

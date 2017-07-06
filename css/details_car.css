@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*汽车详情页内容区*/
+.car_content{
+	width:1000px;
+	margin:0 auto;
+	box-sizing: border-box;
+	min-height: 684px;
+	padding: 60px 80px 103px 60px;
+}
+.car_content>.car_main{
+	width:818px;
+	margin: 0 auto;
+}
+.car_content>.car_main>div{
+	float:left;
+}
+/*汽车详情页内容区左侧*/
+.car_content>.car_main>.car_left{
+	width:194px;
+}
+.car_content>.car_main>.car_left>div:nth-child(1){
+	width:194px;
+	height: 30px;
+	border-radius: 5px;
+	background: #167ecd;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+.car_content>.car_main>.car_left>div:nth-child(2){
+	padding: 51px 44px 51px 0;
+}
+.car_content>.car_main>.car_left>div:nth-child(2)>img{
+	box-shadow: 2px 0px 2px black;
+}
+.car_content>.car_main>.car_left>div:nth-child(3){
+	padding: 12px 52px 47px 12px;
+}
+.car_content>.car_main>.car_left>div:nth-child(3)>span{
+	float: right;
+	width:95px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color:white;
+	background: url(../img/qclist/qcbj.png) repeat-x;
+	margin-bottom: 75px;
+}
+/*汽车详情页内容区右侧*/
+.car_content>.car_main>.car_right{
+	box-sizing: border-box;
+	width: 624px;
+	padding: 80px 0 80px 80px;
+}
+.car_content>.car_main>.car_right>div{
+	text-indent: 2em;
+	font-size: 14px;
+	margin-bottom: 22px;
+}
+.car_content>.car_main>.car_right>div>p:nth-of-type(3){
+	margin-top: 22px;
+}

@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 14px;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#container{
+	width:1000px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 0px 20px #ccc;
+	-moz-box-shadow: 0px 0px 20px #ccc;
+	box-shadow: 0px 0px 20px #ccc;
+}
+
+/*中心部分*/
+.section{
+	min-height:641px;
+	width:998px;
+	padding-top:43px;
+	margin: 0 auto;
+	border-left:1px solid #e0e0e0;
+	border-right:1px solid #e0e0e0;
+}
+/*左边部分*/
+.left{
+	width:194px;
+	height:580px;
+	margin-left:53px;
+	float: left;
+}
+.left>.top{
+	width:194px;
+	height:30px;
+	background: #1f8ad3;
+	line-height:30px;
+	text-align: center;
+	color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+/*列表部分*/
+.left>.center{
+	max-height: 550px;
+	overflow: hidden;
+}
+.left>.center li{
+	padding-top:10px;
+	height:43px;
+	border-bottom: 1px solid #9fa0a0;
+	background: url(../img/fiveimg.png) no-repeat center 10px;
+	line-height:37px;
+	text-align: center;
+}
+.left>.center li>a{
+	color:white;
+}
+.left>.center li>a:hover{
+	color: #f4ea5e;
+}
+/*右侧部分 超出自动加滚动条*/
+.right{
+	max-height:580px;
+	overflow: auto;
+    width:637px;
+    float: left;
+    margin-left:39px;
+}
+/*小标题*/
+.right>h4{
+	margin-top:30px;
+	text-indent: 2em;
+	line-height:30px;
+}
+/*文章主体*/
+.right>p{
+	text-indent: 2em;
+	line-height:30px;
+}

@@ -1,0 +1,298 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	text-decoration: none;
+}
+/*a标签字体颜色*/
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 5px #ccc;
+}
+a:link{
+	color:black;
+}
+a:hover{
+	color:black;
+}
+a:visited {
+	color: black;
+}
+/*body背景颜色*/
+body{
+	background:#ccc;
+	font-size:14px;
+}
+/*顶图片*/
+.top{
+	width:1000px;
+	height:177px;
+	margin: auto;
+}
+.top img{
+	margin-left:-1px;
+}
+.nav{
+	width:1000px;
+	height:45px;
+	background:#1378c5 ;
+	border-bottom: 1px solid #a8a8a8;
+	position: relative;
+	margin-top:3px;
+}
+.nav_word{
+	width:70%;
+	height:45px;
+	margin:auto;
+}
+
+.nav_word li{
+	list-style: none;
+	float: left;
+	/*font-family: "微软雅黑";*/
+	font-size: 18px;
+	color: white;
+	line-height: 45px;
+	text-align: center;
+	position: relative;
+	width:100px;
+	left:5px;
+	margin-left:15px;
+}
+.second:hover .nav_word2{
+	display: block;
+}
+.nav_word a{
+	text-decoration: none;
+	color: white;
+}
+.nav_word a:hover{
+	text-decoration:underline;
+	color:white;
+	
+}
+.nav_word li:hover{
+	background:#22b7fc;
+}
+.nav_word2{
+	width:100px;
+	height:90px;
+	/*font-family: "微软雅黑";*/
+	font-size: 14px;
+	background:#1378c5 ;
+	position: absolute;
+	display: none;
+	z-index: 3;
+}
+.nav_word2 a{
+	color:white;
+	
+}
+.nav_word2 a:hover{
+	text-decoration:underline;
+	color:white;
+	
+}
+.nav_word2 li{
+	width:100px;
+	height:45px;
+	line-height: 45px;
+	text-align: center;
+	list-style: none;
+	position: relative;
+	left:-15px;
+}
+.nav_word2 li:hover{
+	background:#22b7fc; 
+	text-decoration: none;
+	
+}
+.nav_word3{
+	width:100px;
+	height:270px;
+	position: absolute;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	background:#1378c5 ;
+	display: none;
+	z-index: 3;
+}
+.jinqu{
+	height:90px;
+}
+.second2:hover .nav_word3{
+	display: block;
+}
+/*lihover*/
+.nav_word3 li{
+	width:100px;
+	height:45px;
+	line-height: 45px;
+	text-align: center;
+	list-style: none;
+	position: relative;
+	left:-15px;
+}
+/*主体部分*/
+.zhu{
+	width:1000px;
+	margin:auto;
+	min-height: 684px;
+	background:white;
+}
+/*左边盒子*/
+.left{
+	width:260px;
+	background:white;
+	float: left;
+	height:680px;
+}
+/*右边盒子*/
+.right{
+	width:740px;
+	background:white;
+	float: left;
+	border:1px solid gray;
+	box-sizing: border-box;
+	border-top:0;
+	height:680px;
+}
+.timer-div{
+			width: 273px;
+			font-size:18px;
+			height: 46px;
+			text-align: center;
+			padding: 0px 40px;
+			box-sizing: border-box;
+			margin-top:25px;
+			font-weight:bold;
+			text-shadow: 1px 2px 1px #ccc;
+		}
+.er,.san,.si,.wu{
+	width:100%;
+	height:145px;
+	border-bottom: 1px dashed gray;
+}
+.er img,.san img,.si img,.wu img{
+	margin-top: 20px;
+	
+}
+.er p,.san p,.si p,.wu p{
+	margin-top:20px;
+	width:100%;
+	text-align: center;
+			text-shadow: 1px 2px 1px #ccc;
+	
+}
+.right_left{
+	width:60%;
+	float: left;
+}
+.right_right{
+	width:40%;
+	float: left;
+}
+/*每一为li的大个盒子*/
+.zhong{
+	width:80%;
+	height:200px;
+	margin:auto;
+}
+.jiaoxue{
+	width:95%;
+	margin-left:5%;
+	border-bottom: 1px solid gray;
+	height:80px;
+	position: relative;
+}
+.jiaoxue p{
+	float: left;
+	margin-left:70px;
+	margin-top:50px;
+}
+.jiaoxue img{
+	position: absolute;
+	bottom: -4px;
+	left:-7px;
+	z-index:1;
+}
+.zhong li{
+	width:100%;
+	height:40px;
+	border-bottom:1px dashed gray ;
+	line-height: 40px;
+	list-style-image: url(../img/point.png);
+	list-style-position: inside;
+	text-indent:2em;
+	text-shadow: 1px 0 2px #CCCCCC;
+}
+.top3{
+	margin-top:0px;
+}
+.top1{
+	margin-top:10px;
+}
+/*右上、右下*/
+.xie1{
+	width:90%;
+	height:300px;
+}
+.ju{
+	width:100%;
+	height:280px;
+	margin-top:20px;
+	position: relative;	
+}
+.ju img{
+	position: absolute;
+	right:40px;
+	z-index: 2;
+	top:-2px;
+}
+.xie{
+	width:100%;
+	height:220px;
+	position: absolute;
+	bottom:-2px;
+	border:1px solid gray;
+	transform-origin: top;
+	transform: skewY(4deg);
+	z-index: 1;
+}
+/*斜切里面文字*/
+.da{
+	width:100%;
+	height:200px;
+	padding-top:60px;
+}
+.da li{
+	width:90%;
+	height:40px;
+	border-bottom:1px dashed gray ;
+	line-height: 40px;
+	text-shadow: 1px 0 2px #CCCCCC;
+	list-style-image: url(../img/point.png);
+	list-style-position: outside;
+	text-indent:2em;
+	list-style-position: inside;
+	margin:auto;
+}
+/*将斜切多去部分遮住*/
+.xian{
+	width:101%;
+	height:20px;
+	border-top:1px solid gray;
+	margin-top:12px;
+	background:white;
+	position: absolute;
+	z-index: 3;
+}
+
+
+
+
+
+
+
+

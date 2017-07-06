@@ -1,0 +1,470 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+.center {
+  height: 683px;
+  width: 1000px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 20px #ccc;
+}
+.center > div {
+  margin-top: 17px;
+}
+.center .center1 {
+  margin-left: 10px;
+  float: left;
+  width: 232px;
+  height: 643px;
+}
+.center .center1 > .login {
+  width: 230px;
+  height: 406px;
+  border: 1px solid #cccccc;
+  background: url(../img/tou.png) no-repeat 0 0, #f8f8f8;
+}
+.center .center1 > .login > p {
+  height: 28px;
+  line-height: 28px;
+  margin-left: 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.center .center1 > .login > .login1 {
+  margin-top: 32px;
+  margin-left: 18px;
+  height: 326px;
+  width: 192px;
+}
+.center .center1 > .login > .login1 > p:nth-child(1) {
+  font-weight: bolder;
+  font-size: 14px;
+  text-align: center;
+  height: 21px;
+  border-bottom: 1px solid #cacaca;
+}
+.center .center1 > .login > .login1 > p:nth-child(1) > a {
+  text-decoration: underline;
+  color: #8bd78f;
+}
+.center .center1 > .login > .login1 > ul {
+  list-style: none;
+  width: 100%;
+  margin-top: 19px;
+}
+.center .center1 > .login > .login1 > ul li {
+  height: 39px;
+  width: 100%;
+  margin-top: 9px;
+  float: left;
+}
+.center .center1 > .login > .login1 > ul li p {
+  height: 11px;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.center .center1 > .login > .login1 > ul li input {
+  height: 17px;
+  width: 143px;
+  margin-top: 9px;
+  border: 1px solid black;
+  border-radius: 1px;
+}
+.center .center1 > .login > .login1 > ul li span {
+  float: right;
+  font-size: 16px;
+  margin-top: 9px;
+  height: 17px;
+  line-height: 17px;
+  color: red;
+}
+.center .center1 > .login > .login1 > ul li:first-child {
+  margin-top: 0;
+}
+.center .center1 > .login > .login1 button {
+  height: 21px;
+  width: 78px;
+  margin-left: 32px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background: #5bca63;
+  color: white;
+  position: relative;
+  box-shadow: 0 3px 4px gray;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  outline: 0px;
+  border: 0;
+}
+.center .center1 > .login > .login2 {
+  display: none;
+  margin-top: 32px;
+  margin-left: 18px;
+  height: 326px;
+  width: 192px;
+}
+.center .center1 > .login > .login2 > p:nth-child(1) {
+  font-weight: bolder;
+  font-size: 14px;
+  text-align: center;
+  height: 21px;
+  border-bottom: 1px solid #cacaca;
+}
+.center .center1 > .login > .login2 > p:nth-child(1) > a {
+  text-decoration: underline;
+  color: #8bd78f;
+}
+.center .center1 > .login > .login2 > ul {
+  list-style: none;
+  width: 100%;
+  margin-top: 19px;
+}
+.center .center1 > .login > .login2 > ul li {
+  height: 39px;
+  width: 100%;
+  margin-top: 9px;
+  float: left;
+}
+.center .center1 > .login > .login2 > ul li p {
+  height: 11px;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.center .center1 > .login > .login2 > ul li input {
+  height: 17px;
+  width: 143px;
+  margin-top: 9px;
+  border: 1px solid black;
+  border-radius: 1px;
+}
+.center .center1 > .login > .login2 > ul li span {
+  float: right;
+  font-size: 16px;
+  margin-top: 9px;
+  height: 17px;
+  line-height: 17px;
+  color: red;
+}
+.center .center1 > .login > .login2 > ul li:first-child {
+  margin-top: 0;
+}
+.center .center1 > .login > .login2 button {
+  height: 21px;
+  width: 78px;
+  margin-left: 32px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background: #5bca63;
+  color: white;
+  position: relative;
+  box-shadow: 0 3px 4px gray;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  outline: 0px;
+  border: 0;
+}
+.center .center1 > .login > .login3 {
+  display: none;
+  margin-top: 32px;
+  margin-left: 18px;
+  height: 326px;
+  width: 192px;
+}
+.center .center1 > .login > .login3 button {
+  height: 21px;
+  width: 78px;
+  margin-left: 32px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background: #5bca63;
+  color: white;
+  position: relative;
+  box-shadow: 0 3px 4px gray;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  outline: 0px;
+  border: 0;
+}
+.center .center1 > .lianxi {
+  height: 27px;
+  width: 230px;
+  margin-top: 13px;
+  line-height: 27px;
+  color: white;
+  text-indent: 20px;
+  font-size: 16px;
+  background: url(../img/jiao1.png) no-repeat 7px 50%, url(../img/tou.png) no-repeat 0 0;
+  border: 1px solid #b2bbc4;
+}
+.center .center1 > ul {
+  width: 100%;
+  list-style: none;
+  margin-top: 5px;
+}
+.center .center1 > ul li {
+  height: 12px;
+  margin-top: 12px;
+  text-indent: 16px;
+  font-size: 14px;
+  color: #444444;
+  line-height: 12px;
+}
+.center .center2 {
+  margin-left: 27px;
+  width: 464px;
+  height: 643px;
+  float: left;
+}
+.center .center2 > div:nth-child(1) {
+  float: left;
+  height: 28px;
+  width: 100%;
+  border-bottom: 1px solid #b2bbc4;
+  line-height: 28px;
+  text-indent: 30px;
+  font-size: 16px;
+  color: white;
+  background: url(../img/jiao1.png) no-repeat 10px 50%, url(../img/tou3.png) no-repeat 0 0;
+}
+.center .center2 > ul {
+  width: 100%;
+  list-style: none;
+  margin-top: 6px;
+  float: right;
+  height: 315px;
+  overflow: hidden;
+}
+.center .center2 > ul li {
+  height: 12px;
+  width: 100%;
+  font-size: 14px;
+  float: right;
+  margin-top: 12px;
+  background: url(../img/jiao.png) no-repeat 0 50%;
+}
+.center .center2 > ul li a {
+  color: black;
+}
+.center .center2 > ul li p {
+  float: left;
+  height: 12px;
+  line-height: 12px;
+  text-indent: 12px;
+}
+.center .center2 > ul li span {
+  float: right;
+  height: 12px;
+  line-height: 12px;
+}
+.center .center2 > p {
+  margin-top: 29px;
+  height: 12px;
+  float: right;
+  margin-right: 3px;
+  line-height: 12px;
+  font-size: 14px;
+}
+.center .center2 > p a {
+  color: #b30306;
+}
+.center .center2 > .thr {
+  float: left;
+  background: #f8f8f8;
+  margin-top: 30px;
+  width: 462px;
+  height: 221px;
+  border: 1px solid #cccccc;
+}
+.center .center2 > .thr > p {
+  height: 28px;
+  border-bottom: 1px solid #b2bbc4;
+  border-right: 1px solid #b2bbc4;
+  background: url(../img/jiao1.png) no-repeat 10px 50%, url(../img/tou1.png) no-repeat 0 0;
+  line-height: 28px;
+  color: white;
+  text-indent: 30px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.center .center2 > .thr > p span {
+  float: right;
+  margin-right: 16px;
+}
+.center .center2 > .thr > p span a {
+  color: #b30306;
+}
+.center .center2 > .thr > .img {
+  float: left;
+  margin-left: 34px;
+  margin-top: 23px;
+}
+.center .center2 > .thr > .img > a {
+  width: 110px;
+  float: left;
+  height: 149px;
+  margin-left: 30px;
+  box-shadow: 3px 4px 3px black;
+}
+.center .center2 > .thr > .img > a:nth-child(1) {
+  margin-left: 0;
+}
+.center .center3 {
+  float: left;
+  width: 232px;
+  height: 643px;
+  margin-left: 29px;
+}
+.center .center3 > div:nth-child(1) {
+  float: left;
+  height: 55px;
+  width: 221px;
+  margin-left: 5.5px;
+  background: url(../img/jink.png) no-repeat 26px 4px, url(../img/jjingp.png) no-repeat 0 0;
+  font-size: 23px;
+  font-weight: bolder;
+  color: white;
+  line-height: 58px;
+  text-indent: 94px;
+  position: relative;
+  overflow: hidden;
+}
+.center .center3 > div:nth-child(1) a {
+  color: white;
+}
+.center .center3 > div:nth-child(1) .guang {
+  position: absolute;
+  top: 0px;
+  width: 150px;
+  height: 10px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), #ffffff, rgba(255, 255, 255, 0.2));
+  left: -150px;
+  -webkit-transform: rotate(-60deg) skewX(-60deg);
+  -moz-transform: rotate(-60deg) skewX(-60deg);
+  -ms-transform: rotate(-60deg) skewX(-60deg);
+  -o-transform: rotate(-60deg) skewX(-60deg);
+  transform: rotate(-60deg) skewX(-60deg);
+  -webkit-animation: mover 2s linear 0s infinite;
+  -moz-animation: mover 2s linear 0s infinite;
+  -o-animation: mover 2s linear 0s infinite;
+  animation: mover 2s linear 0s infinite;
+}
+.center .center3 > div:nth-child(2) {
+  float: left;
+  height: 30px;
+  width: 230px;
+  border-radius: 3px;
+  border: 1px solid #a3d6ec;
+  background: url(../img/touwu.png) repeat-x;
+}
+.center .center3 > div:nth-child(3) {
+  height: 202px;
+  width: 230px;
+  float: left;
+  border: 1px solid #CCCCCC;
+  font-size: 14px;
+  border-top: 0;
+}
+.center .center3 > div:nth-child(3) ul {
+  list-style: none;
+  margin-top: 12px;
+  height: 144px;
+  width: 100%;
+}
+.center .center3 > div:nth-child(3) ul li {
+  float: left;
+  height: 12px;
+  margin-top: 12px;
+  line-height: 12px;
+  text-indent: 52px;
+  background: url(../img/jian.png) no-repeat 35px 50%;
+}
+.center .center3 > div:nth-child(3) ul li a {
+  color: black;
+}
+.center .center3 > div:nth-child(3) > p {
+  height: 12px;
+  line-height: 12px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.center .center3 > div:nth-child(3) > p a {
+  color: #b00404;
+}
+.center .center3 > div:nth-child(4) {
+  float: left;
+  height: 20px;
+  width: 230px;
+  margin-top: 25px;
+  background: url(../img/search.png) no-repeat 100% -2px;
+}
+.center .center3 > div:nth-child(4) p {
+  height: 20px;
+  line-height: 20px;
+  color: #461d4e;
+  font-size: 12px;
+  font-weight: bolder;
+  float: left;
+}
+.center .center3 > div:nth-child(4) input {
+  height: 18px;
+  float: right;
+  border: 1px solid #88a4be;
+  margin-right: 20px;
+  width: 143px;
+}
+.center .center3 > div:nth-child(5) {
+  float: left;
+  margin-top: 83px;
+  width: 230px;
+  height: 23px;
+  border: 1px solid #a3d6ec;
+  background: url(../img/biap.png) no-repeat 8px 50%, url(../img/tou4.png) repeat-x;
+  line-height: 23px;
+  color: #0360a3;
+  font-size: 16px;
+  text-indent: 25px;
+  font-weight: bolder;
+}
+.center .center3 > ul {
+  float: left;
+  list-style: none;
+  width: 100%;
+  margin-top: 10px;
+}
+.center .center3 > ul li {
+  height: 22px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 12px;
+  margin-bottom: 16px;
+}
+.center .center3 > ul li select {
+  height: 20px;
+  border: 1px solid #7f9db9;
+  width: 168px;
+}
+@keyframes mover {
+  from {
+    left: -50px;
+  }
+  to {
+    left: 1200px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
